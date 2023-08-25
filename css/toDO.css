@@ -1,0 +1,23 @@
+i {
+    cursor: pointer;
+}
+
+.counter,
+.finishTasks {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: #080;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.task {
+    cursor: pointer;
+}
+
+.finish {
+    background-color: cadetblue;
+}

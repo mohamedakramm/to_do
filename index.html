@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/toDO.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container m-4">
+        <div class="row">
+            <div class="col-9">
+                <input type="text" class="form-control" id="taskInput">
+            </div>
+            <div class="col-3">
+                <button class="btn btn-primary" id="taskBtn"> add new task</button>
+            </div>
+            <div class="counter  m-4 mx-auto text-center w-50">
+                <div>number of task</div>
+                <div id="counterr">0</div>
+            </div>
+            <div class=" finishTasks  m-4 mx-auto text-center w-50">
+                <div>finish of task</div>
+                <div id="finishTASK">0</div>
+            </div>
+            <div class="col-12">
+                <ul class="list-group  m-4 mx-auto text-center w-50" id="tasksOutput">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/toDo.js"></script>
+</body>
+
+</html>
